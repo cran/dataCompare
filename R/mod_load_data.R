@@ -1,10 +1,5 @@
 # Module UI
  
-#' @title mod_load_data_ui and mod_load_data_server
-#' @description A shiny module.
-#' @param id an id
-#' @returns No return value
- 
 mod_load_data_ui <- function(id) {
 	ns <- NS(id)
 	tabItem(
@@ -82,7 +77,10 @@ mod_load_data_server <- function(input, output, session) {
 	ns <- session$ns
 	rv_loaded_data <- reactiveValues(
 	  comparison_summary_object = list(diff_percentage = NA_real_),
-	  click_on_run = 0
+	  click_on_run = 0,
+	  df1 = data.frame(),
+	  df2 = data.frame(),
+	  ids = "ID"
 	)
 	
 	# Define constants
@@ -120,6 +118,9 @@ mod_load_data_server <- function(input, output, session) {
 	observeEvent(input$run_comparison, {
 	  rv_loaded_data$comparison_summary_object <- compare_data_frame_object( upload_data_1(), upload_data_2(), input$idVariables )
 	  rv_loaded_data$click_on_run <- rv_loaded_data$click_on_run + 1
+	  rv_loaded_data$df1 = upload_data_1()
+	  rv_loaded_data$df2 = upload_data_2()
+	  rv_loaded_data$ids = input$idVariables
 	  
 	})
 	
@@ -143,8 +144,10 @@ mod_load_data_server <- function(input, output, session) {
 	             then click on 'COMPARE' button to perform 
 	             the comparison.", 
 	            "Of cells are diferent. Please open the 
-	            two nexts tabs to read more details on 
-	            this differences percentage."),
+	             two nexts tabs to read more details on 
+	             this differences percentage. open the fourth tab and
+	             click on 'RUN' to build the html report  
+	             then on 'SAVE' to download the html report"),
 	    icon = icon(val_box_ico, lib = "glyphicon"),
 	    color = val_box_col
 	  )
