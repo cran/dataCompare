@@ -1,7 +1,7 @@
-fc3d3f6a11f05090f9b2346550f6cb44 *DESCRIPTION
+3356f16c967a92e97b6b58984a43d0b5 *DESCRIPTION
 ae14dedb5f3bd100b24d564bafea2f31 *LICENSE
 74722f60ce952c145409202b030fe3c8 *NAMESPACE
-00b3f89ee6233e47bd58e883a7abc0cd *NEWS.md
+d6532c9aefb5faed46b10bb4cba01139 *NEWS.md
 76505eb5828158873c30f94a95e8fd16 *R/apex_libraries.R
 763eaaa1648ca07e7adbe6d45524cd62 *R/app_config.R
 1d45dd2e86ad66ee3193aeb675c3b704 *R/app_server.R
@@ -15,7 +15,7 @@ bf5445759973ca50d8b3d17ab284eef1 *R/footer.R
 d41d8cd98f00b204e9800998ecf8427e *R/mod_comp_desc_fct_display.R
 345c565fdb76cb71fc11bc1a56b0c7f0 *R/mod_comp_details.R
 d41d8cd98f00b204e9800998ecf8427e *R/mod_comp_details_fct_display.R
-af9ff69551dc9f9d2cd16f2dc3cf8125 *R/mod_comp_report.R
+91195a818c2b3822b278961b48c6f15b *R/mod_comp_report.R
 d41d8cd98f00b204e9800998ecf8427e *R/mod_comp_report_fct_display.R
 a7983259506a1e9b6e9a537f41a484bd *R/mod_intro.R
 d41d8cd98f00b204e9800998ecf8427e *R/mod_intro_fct_display.R
@@ -25,7 +25,7 @@ c8ff25c9ab8f0063172aa773873ebf01 *R/mod_load_data_fct_display.R
 b5deb2a3fd2d6dc5b2c648ff0f75845b *R/sidebar.R
 927a0853704dac42e3944ca364c45217 *R/theme.R
 cf794928715019cf81bd51d467156178 *R/utils-pipe.R
-c7ddc2c8821b9e5bf59893d4cd1fbe3e *README.md
+fd04b276b518fc77990b72778eee26d8 *README.md
 3ef1223f960b2a78b05d6db3c9f576db *build/vignette.rds
 807434dae66f0874e95a7a1153c8de32 *inst/app/cranReports/00details.log
 b50db2785597fe00fdc0448763634c05 *inst/app/data/dff1.csv
@@ -45,7 +45,7 @@ a2289f1bb56a9818791ecc17883f18ab *inst/app/data/iris.rds
 b70ff65cfc3584e4df316f52ec8cb947 *inst/app/template/Comparison_report.Rmd
 bafa45543802720a6f4c13bee84fb301 *inst/app/www/ComparisonReport.PNG
 a0311c326c3ecb5ac07a9ac7b244b413 *inst/app/www/Comparison_report.Rmd
-db8de2ed0fd17595011cf088f663fec0 *inst/app/www/Comparison_report.html
+73db9dfc1629e1c582bb1bbefdcb6c69 *inst/app/www/Comparison_report.html
 ea65244626b83c6cf54942503eb9bbbc *inst/app/www/afterClickCompare.PNG
 08262995d78b0b269849f70b51db2239 *inst/app/www/afterLoading.PNG
 713ff16c9243b6fba352c097a65d19d1 *inst/app/www/body.css
@@ -62,7 +62,7 @@ afdd8ea9a0b3ae135f8258fb6af9d6ab *inst/app/www/dfComparator_vignette.png
 33596518b6f2e812198b0bd0e1f21f23 *inst/app/www/mainPage.PNG
 636d5fabbc5e2351a145075f96062744 *inst/doc/dataCompare.R
 2bbbe742c432ffb40eebf5577f3dfa71 *inst/doc/dataCompare.Rmd
-cd665714500c35e92d8a922c1e89aba9 *inst/doc/dataCompare.html
+093b4e7a667e1b60f0997982c1c97151 *inst/doc/dataCompare.html
 e6e54adac53868067fb82a7bfad526c4 *inst/golem-config.yml
 c12bc731bb20b97b208cfc1e4ded8f7b *man/compare_data_frame_object.Rd
 0900b278a4a18a8c901eb73ffd9c5c5c *man/dataCompare-package.Rd
