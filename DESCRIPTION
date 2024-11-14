@@ -1,6 +1,6 @@
 Package: dataCompare
 Title: A 'shiny' App to Compare Two Data Frames
-Version: 1.0.2
+Version: 1.0.3
 Authors@R: 
     person("Sergio", "Ewane Ebouele", , "info@dataforknow.com", role = c("aut", "cre"))
 Description: A tool developed with the 'Golem' framework which provides 
@@ -27,9 +27,9 @@ Config/testthat/edition: 3
 Encoding: UTF-8
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2024-11-11 18:04:28 UTC; Utilisateur
+Packaged: 2024-11-14 05:24:21 UTC; Utilisateur
 Author: Sergio Ewane Ebouele [aut, cre]
 Maintainer: Sergio Ewane Ebouele <info@dataforknow.com>
 Depends: R (>= 3.5.0)
 Repository: CRAN
-Date/Publication: 2024-11-11 18:20:02 UTC
+Date/Publication: 2024-11-14 08:50:17 UTC
