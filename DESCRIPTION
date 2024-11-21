@@ -1,6 +1,6 @@
 Package: dataCompare
 Title: A 'shiny' App to Compare Two Data Frames
-Version: 1.0.3
+Version: 1.0.4
 Authors@R: 
     person("Sergio", "Ewane Ebouele", , "info@dataforknow.com", role = c("aut", "cre"))
 Description: A tool developed with the 'Golem' framework which provides 
@@ -17,19 +17,19 @@ Description: A tool developed with the 'Golem' framework which provides
 License: MIT + file LICENSE
 URL: https://github.com/seewe/dataCompare
 BugReports: https://github.com/seewe/dataCompare/issues
-Imports: arsenal, config, data.table, devtools, dplyr, DT, golem,
-        htmltools, lubridate, magrittr, pins, shiny, shinydashboard,
-        shinydashboardPlus, shinyjs, shinyWidgets, skimr, tools, utils,
-        vroom
+Imports: arsenal, config, data.table, devtools, dplyr, DT, explore,
+        golem, htmltools, magrittr, shiny, shinycssloaders,
+        shinydashboard, shinydashboardPlus, shinyWidgets, skimr, tools,
+        utils
 Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Config/testthat/edition: 3
 Encoding: UTF-8
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2024-11-14 05:24:21 UTC; Utilisateur
+Packaged: 2024-11-21 15:28:01 UTC; Utilisateur
 Author: Sergio Ewane Ebouele [aut, cre]
 Maintainer: Sergio Ewane Ebouele <info@dataforknow.com>
 Depends: R (>= 3.5.0)
 Repository: CRAN
-Date/Publication: 2024-11-14 08:50:17 UTC
+Date/Publication: 2024-11-21 17:00:02 UTC

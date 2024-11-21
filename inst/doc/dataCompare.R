@@ -69,6 +69,16 @@ iris_2 <- iris_2  %>% rbind.data.frame(
     ID = row_number()
   )
 
+## ----eval=FALSE---------------------------------------------------------------
+#  dataCompare::compare_data_frame_object_report(
+#        df1 = iris_1,
+#        df2 = iris_2,
+#        ids = "ID",
+#        report_title = "Iris data comparison",
+#        report_author = "Sergio Ewane",
+#        report_context = "This report aim to show an example of how to perform a comparison and build an html report."
+#      )
+
 ## -----------------------------------------------------------------------------
 dataCompare::data_table_formatter(iris)
 
