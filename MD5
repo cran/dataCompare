@@ -1,7 +1,7 @@
-ba763b214ea4197dbec5c5b8cc2a271a *DESCRIPTION
+4a8b1293c5fe866aab2b9aeb3ae922da *DESCRIPTION
 ae14dedb5f3bd100b24d564bafea2f31 *LICENSE
 8ce91176b2b5c73dcd59d58306e2e4f4 *NAMESPACE
-5a93ec71a7f329948ece1ba97676d320 *NEWS.md
+cd46a425db13b0564146bb87f2c84b28 *NEWS.md
 a255f7693418562fb41615deb96439b6 *R/apex_libraries.R
 763eaaa1648ca07e7adbe6d45524cd62 *R/app_config.R
 cbfe65f95f9d72d7ac2b12c67ddbd200 *R/app_server.R
@@ -15,14 +15,15 @@ d3dacebd958ff418f2e7f4f88bd2d3e6 *R/mod_comp_desc.R
 d41d8cd98f00b204e9800998ecf8427e *R/mod_comp_desc_fct_display.R
 452f8829f3a73b37bd749cfef0dd0e48 *R/mod_comp_details.R
 d41d8cd98f00b204e9800998ecf8427e *R/mod_comp_details_fct_display.R
-3511b644e795cc622e8f965a34bbe488 *R/mod_comp_report.R
-331cf81f077441b2ba8308efe8141bae *R/mod_comp_report_fct_display.R
+a96560d031d14bc5cb26e140566c1b26 *R/mod_comp_report.R
+fc2c4c920eaa146814d27171dabefb68 *R/mod_comp_report_fct_display.R
 f99bc51d589c0591edbdd52c6b26a1a6 *R/mod_intro.R
 d41d8cd98f00b204e9800998ecf8427e *R/mod_intro_fct_display.R
-cff7da97fb23db43b4e10f49385febd0 *R/mod_load_data.R
+1cacf3de2449f6ad2e91d18975c53ef8 *R/mod_load_data.R
 c8ff25c9ab8f0063172aa773873ebf01 *R/mod_load_data_fct_display.R
 57bdaf6857cbb142a4769951e24cd7e1 *R/run_app.R
 b5deb2a3fd2d6dc5b2c648ff0f75845b *R/sidebar.R
+2a8d38a1589e24872d3039f48d6c442e *R/template_content.R
 927a0853704dac42e3944ca364c45217 *R/theme.R
 cf794928715019cf81bd51d467156178 *R/utils-pipe.R
 993a0bf66abc34ab721b5b628712cf21 *README.md
@@ -62,7 +63,7 @@ afdd8ea9a0b3ae135f8258fb6af9d6ab *inst/app/www/dfComparator_vignette.png
 3e8d865a287ede8c59ae4a38ace02fbc *inst/app/www/report.png
 bc6f4b8108de373911f7865934d64166 *inst/doc/dataCompare.R
 73d48356947d0590ec4a1c7a69916e0d *inst/doc/dataCompare.Rmd
-d38483ac1648fd026776b66de35675a5 *inst/doc/dataCompare.html
+71637a7b9ce77f01676834cb7efe4c10 *inst/doc/dataCompare.html
 e6e54adac53868067fb82a7bfad526c4 *inst/golem-config.yml
 c12bc731bb20b97b208cfc1e4ded8f7b *man/compare_data_frame_object.Rd
 217c8185eebf0c03ebaa17100c3c5090 *man/compare_data_frame_object_report.Rd
